@@ -1,12 +1,9 @@
 <?php
 
-namespace Test\Prometheus\Redis;
+namespace Test\Prometheus\Predis;
 
 use Test\Prometheus\AbstractCollectorRegistryTest;
 
-/**
- * @requires extension redis
- */
 class CollectorRegistryTest extends AbstractCollectorRegistryTest
 {
     use InitializationTrait;

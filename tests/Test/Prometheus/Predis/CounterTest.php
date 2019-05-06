@@ -1,12 +1,11 @@
 <?php
 
-namespace Test\Prometheus\Redis;
+namespace Test\Prometheus\Predis;
 
 use Test\Prometheus\AbstractCounterTest;
 
 /**
  * See https://prometheus.io/docs/instrumenting/exposition_formats/
- * @requires extension redis
  */
 class CounterTest extends AbstractCounterTest
 {
