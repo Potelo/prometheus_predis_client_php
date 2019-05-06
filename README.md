@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/Jimdo/prometheus_client_php.svg?branch=master)](https://travis-ci.org/Jimdo/prometheus_client_php)
 
 This library uses Redis or APCu to do the client side aggregation.
-If using Redis, we recommend to run a local Redis instance next to your PHP workers.
+If using Redis, we recommend to run a local Redis instance next to your PHP workers. This library includes predis support for external redis clients
 
 ## How does it work?
 
